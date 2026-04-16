@@ -287,8 +287,8 @@
 <!-- Page Hero -->
 <section class="page-hero">
   <div class="container">
-    <h1>About <span class="text-gradient">Scholvia</span></h1>
-    <p>The people, the purpose, and the promise behind Southeast Asia's most personal education agency.</p>
+    <h1><?php scholvia_te('about_hero_title_prefix'); ?> <span class="text-gradient"><?php scholvia_te('about_hero_title_gradient'); ?></span></h1>
+    <p><?php scholvia_te('about_hero_subtitle'); ?></p>
   </div>
 </section>
 
@@ -298,7 +298,7 @@
     <div class="about-intro-grid">
       <div class="about-photo-col reveal-left">
         <div class="about-photo-wrapper">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/citra.png" alt="Citra Agustina — Founder of Scholvia" class="about-photo">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/citra.png" alt="<?php echo esc_attr(scholvia_t('guide_photo_alt')); ?>" class="about-photo">
         </div>
         <a href="https://www.linkedin.com/in/citragustina/" target="_blank" rel="noopener" class="linkedin-link photo-linkedin">
           <svg viewBox="0 0 24 24" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
@@ -306,12 +306,12 @@
         </a>
       </div>
       <div class="about-text reveal-right">
-        <span class="section-label">Who We Are</span>
-        <h2>Built on Trust, Powered by Care</h2>
-        <p>Scholvia was founded by <strong>Citra Agustina</strong> with a simple but powerful belief: every student deserves a guide who genuinely cares about their future. Not a sales pitch. Not a transaction. A real relationship.</p>
-        <p>Based in Jakarta and Kuala Lumpur, we are a team of 8 dedicated consultants who specialize in helping students from Indonesia and Malaysia study abroad. From university enrollment to visa assistance, language preparation to post-arrival support — we handle it all.</p>
-        <p>What makes us different? We do not disappear after you land. We stay with you throughout your journey, answering questions at 2 AM, helping you navigate homesickness, celebrating your wins. That is what family does.</p>
-        <p>With over 400 partner institutions and a 98% visa success rate, we have the expertise. But it is the personal touch that students remember most.</p>
+        <span class="section-label"><?php scholvia_te('about_label'); ?></span>
+        <h2><?php scholvia_te('about_title'); ?></h2>
+        <p><?php scholvia_te_raw('about_text_1'); ?></p>
+        <p><?php scholvia_te('about_text_2'); ?></p>
+        <p><?php scholvia_te('about_text_3'); ?></p>
+        <p><?php scholvia_te('about_text_4'); ?></p>
       </div>
     </div>
   </div>
@@ -321,24 +321,24 @@
 <section class="mission-section">
   <div class="container text-center">
     <div class="reveal">
-      <span class="section-label">Our Purpose</span>
-      <h2 class="section-title">Mission &amp; Vision</h2>
-      <p class="section-subtitle">Guided by purpose. Driven by the belief that education changes lives.</p>
+      <span class="section-label"><?php scholvia_te('mission_label'); ?></span>
+      <h2 class="section-title"><?php scholvia_te('mission_title'); ?></h2>
+      <p class="section-subtitle"><?php scholvia_te('mission_subtitle'); ?></p>
     </div>
     <div class="mission-grid">
       <div class="glass-card mission-card reveal">
         <div class="mission-icon">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"/></svg>
         </div>
-        <h3>Our Mission</h3>
-        <p>To provide end-to-end educational consulting that is transparent, affordable, and deeply personal — making studying abroad accessible to every student who dares to dream.</p>
+        <h3><?php scholvia_te('mission_card_title'); ?></h3>
+        <p><?php scholvia_te('mission_card_text'); ?></p>
       </div>
       <div class="glass-card mission-card reveal" style="transition-delay: 0.1s;">
         <div class="mission-icon">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
         </div>
-        <h3>Our Vision</h3>
-        <p>To become Southeast Asia's most trusted education partner, where every student feels supported, every parent feels at ease, and no dream is too big to pursue.</p>
+        <h3><?php scholvia_te('vision_card_title'); ?></h3>
+        <p><?php scholvia_te('vision_card_text'); ?></p>
       </div>
     </div>
   </div>
@@ -348,30 +348,30 @@
 <section class="support-section">
   <div class="container text-center">
     <div class="reveal">
-      <span class="section-label">Our Students</span>
-      <h2 class="section-title">Who We Support</h2>
-      <p class="section-subtitle">We serve a diverse community of students and families at every stage of their journey.</p>
+      <span class="section-label"><?php scholvia_te('support_label'); ?></span>
+      <h2 class="section-title"><?php scholvia_te('support_title'); ?></h2>
+      <p class="section-subtitle"><?php scholvia_te('support_subtitle'); ?></p>
     </div>
     <div class="support-grid">
       <div class="glass-card support-card reveal">
         <div class="support-card-icon">&#127891;</div>
-        <h3>High School Graduates</h3>
-        <p>Fresh graduates ready to take the next step into international higher education.</p>
+        <h3><?php scholvia_te('support_card1_title'); ?></h3>
+        <p><?php scholvia_te('support_card1_text'); ?></p>
       </div>
       <div class="glass-card support-card reveal" style="transition-delay: 0.1s;">
         <div class="support-card-icon">&#128218;</div>
-        <h3>University Transfers</h3>
-        <p>Students looking to transfer from local universities to international institutions.</p>
+        <h3><?php scholvia_te('support_card2_title'); ?></h3>
+        <p><?php scholvia_te('support_card2_text'); ?></p>
       </div>
       <div class="glass-card support-card reveal" style="transition-delay: 0.2s;">
         <div class="support-card-icon">&#128106;</div>
-        <h3>Parents &amp; Guardians</h3>
-        <p>Families who want transparency, guidance, and peace of mind for their children's futures.</p>
+        <h3><?php scholvia_te('support_card3_title'); ?></h3>
+        <p><?php scholvia_te('support_card3_text'); ?></p>
       </div>
       <div class="glass-card support-card reveal" style="transition-delay: 0.3s;">
         <div class="support-card-icon">&#127757;</div>
-        <h3>Working Professionals</h3>
-        <p>Professionals seeking postgraduate or short-course opportunities abroad for career growth.</p>
+        <h3><?php scholvia_te('support_card4_title'); ?></h3>
+        <p><?php scholvia_te('support_card4_text'); ?></p>
       </div>
     </div>
   </div>
@@ -381,15 +381,15 @@
 <section class="founder-section">
   <div class="container text-center">
     <div class="reveal">
-      <span class="section-label">From the Founder</span>
-      <h2 class="section-title">A Personal Message</h2>
+      <span class="section-label"><?php scholvia_te('founder_label'); ?></span>
+      <h2 class="section-title"><?php scholvia_te('founder_title'); ?></h2>
     </div>
     <div class="glass-card founder-card reveal">
-      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/citra.png" alt="Citra Agustina">
+      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/citra.png" alt="<?php echo esc_attr(scholvia_t('guide_photo_alt')); ?>">
       <div>
-        <blockquote>"I started Scholvia because I saw too many students overwhelmed by the complexity of studying abroad. I wanted to create a place where they feel safe, supported, and never alone. Every student who walks through our door is not just a client — they are family. And we treat them that way."</blockquote>
-        <p class="guide-name">Citra Agustina <a href="https://www.linkedin.com/in/citragustina/" target="_blank" rel="noopener" class="linkedin-link" aria-label="Citra Agustina on LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" style="vertical-align: middle; margin-left: 6px; fill: #E85D3A;"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></p>
-        <p class="guide-role">Founder &amp; Lead Consultant</p>
+        <blockquote><?php scholvia_te('founder_quote'); ?></blockquote>
+        <p class="guide-name">Citra Agustina <a href="https://www.linkedin.com/in/citragustina/" target="_blank" rel="noopener" class="linkedin-link" aria-label="<?php echo esc_attr(scholvia_t('guide_linkedin_aria')); ?>"><svg viewBox="0 0 24 24" width="18" height="18" style="vertical-align: middle; margin-left: 6px; fill: #E85D3A;"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></p>
+        <p class="guide-role"><?php scholvia_te('founder_role'); ?></p>
       </div>
     </div>
   </div>
@@ -399,54 +399,54 @@
 <section class="faq-section">
   <div class="container text-center">
     <div class="reveal">
-      <span class="section-label">FAQ</span>
-      <h2 class="section-title">Frequently Asked Questions</h2>
-      <p class="section-subtitle">Answers to the questions we hear most from students and parents.</p>
+      <span class="section-label"><?php scholvia_te('faq_label'); ?></span>
+      <h2 class="section-title"><?php scholvia_te('faq_title'); ?></h2>
+      <p class="section-subtitle"><?php scholvia_te('faq_subtitle'); ?></p>
     </div>
     <div class="faq-list">
       <div class="faq-item reveal">
         <button class="faq-question">
-          What services does Scholvia offer?
+          <?php scholvia_te('faq_q1'); ?>
           <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg></span>
         </button>
         <div class="faq-answer">
-          <p>Scholvia offers comprehensive education consulting services including university enrollment assistance, language course and test preparation (IELTS, TOEFL, SAT), visa consultation and study abroad support, education-tourism programs, and 24/7 student support services. We guide you through every step from choosing the right university to settling in after arrival.</p>
+          <p><?php scholvia_te('faq_a1'); ?></p>
         </div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-question">
-          Is there a fee for the initial consultation?
+          <?php scholvia_te('faq_q2'); ?>
           <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg></span>
         </button>
         <div class="faq-answer">
-          <p>No! Your initial consultation with Scholvia is completely free. We believe every student deserves the chance to explore their options without financial pressure. During this session, we will discuss your goals, assess your options, and create a personalized plan — all at no cost to you.</p>
+          <p><?php scholvia_te('faq_a2'); ?></p>
         </div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-question">
-          Which countries and universities do you work with?
+          <?php scholvia_te('faq_q3'); ?>
           <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg></span>
         </button>
         <div class="faq-answer">
-          <p>Scholvia partners with over 400 institutions across Malaysia, Australia, the UK, Canada, and other popular study destinations. We work with both public and private universities, colleges, and language schools to find the best fit for your academic goals, budget, and personal preferences.</p>
+          <p><?php scholvia_te('faq_a3'); ?></p>
         </div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-question">
-          How long does the enrollment process take?
+          <?php scholvia_te('faq_q4'); ?>
           <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg></span>
         </button>
         <div class="faq-answer">
-          <p>The typical enrollment process takes 3 to 4 weeks from start to finish, depending on the university and program. This includes document preparation, application submission, and offer letter processing. Visa processing time varies by country but we keep you informed every step of the way.</p>
+          <p><?php scholvia_te('faq_a4'); ?></p>
         </div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-question">
-          Do you offer support after I arrive at my university?
+          <?php scholvia_te('faq_q5'); ?>
           <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"/></svg></span>
         </button>
         <div class="faq-answer">
-          <p>Absolutely! Post-arrival support is free for all Scholvia students. We help with airport pickup coordination, housing arrangements, orientation guidance, and ongoing academic and personal support. Our 24/7 helpline means you can reach us any time — even at 2 AM when you are feeling homesick.</p>
+          <p><?php scholvia_te('faq_a5'); ?></p>
         </div>
       </div>
     </div>
@@ -456,11 +456,11 @@
 <!-- ========== CTA ========== -->
 <section class="cta-section">
   <div class="container reveal">
-    <h2>Ready to Write Your Story?</h2>
-    <p>Every student who chose Scholvia started exactly where you are now — curious, a little nervous, full of potential. Let us help you take that first step.</p>
+    <h2><?php scholvia_te('cta_title'); ?></h2>
+    <p><?php scholvia_te('cta_text'); ?></p>
     <div class="cta-buttons">
-      <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>" class="btn btn-primary">Book Free Consultation</a>
-      <a href="https://wa.me/6281388666994" target="_blank" rel="noopener" class="btn btn-outline">Chat on WhatsApp</a>
+      <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>" class="btn btn-primary"><?php scholvia_te('cta_btn_consultation'); ?></a>
+      <a href="https://wa.me/6281388666994" target="_blank" rel="noopener" class="btn btn-outline"><?php scholvia_te('cta_btn_whatsapp'); ?></a>
     </div>
   </div>
 </section>

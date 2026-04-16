@@ -1427,3 +1427,64 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.85;
 }
 .photo-linkedin:hover { opacity: 1; color: var(--royal-blue); }
+
+/* ---------- Language Switcher ---------- */
+.lang-switcher {
+  position: relative;
+  margin-left: 8px;
+}
+.lang-current {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: inherit;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.15);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.lang-current:hover { background: rgba(255,255,255,0.18); }
+.navbar.scrolled .lang-current,
+.inner-page .lang-current {
+  background: rgba(42,31,26,0.06);
+  border-color: rgba(42,31,26,0.1);
+  color: var(--deep-indigo);
+}
+.navbar.scrolled .lang-current:hover,
+.inner-page .lang-current:hover { background: rgba(42,31,26,0.1); }
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 80px;
+  background: var(--white);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(0,0,0,0.06);
+  overflow: hidden;
+  z-index: 100;
+}
+.lang-switcher:hover .lang-dropdown,
+.lang-switcher:focus-within .lang-dropdown { display: block; }
+.lang-dropdown a {
+  display: block;
+  padding: 10px 16px;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--deep-indigo);
+  transition: var(--transition);
+}
+.lang-dropdown a:hover { background: var(--lavender-white); color: var(--royal-blue); }
+
+@media (max-width: 768px) {
+  .lang-switcher { margin-left: 0; margin-top: 12px; }
+  .lang-current { color: var(--deep-indigo); background: rgba(42,31,26,0.06); border-color: rgba(42,31,26,0.1); }
+  .lang-dropdown { right: auto; left: 0; }
+}

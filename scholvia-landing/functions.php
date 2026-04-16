@@ -30,10 +30,10 @@ function scholvia_enqueue_assets() {
     );
 
     // Main stylesheet
-    wp_enqueue_style('scholvia-main', get_template_directory_uri() . '/assets/css/main.css', array(), '2.2.0');
+    wp_enqueue_style('scholvia-main', get_template_directory_uri() . '/assets/css/main.css', array(), '2.3.0');
 
     // Main script
-    wp_enqueue_script('scholvia-main', get_template_directory_uri() . '/assets/js/main.js', array(), '2.2.0', true);
+    wp_enqueue_script('scholvia-main', get_template_directory_uri() . '/assets/js/main.js', array(), '2.3.0', true);
 
     // Localize AJAX URL for the contact form script
     wp_localize_script('scholvia-main', 'scholvia_ajax', array(
@@ -52,10 +52,74 @@ function scholvia_dequeue_styles() {
 }
 add_action('wp_enqueue_scripts', 'scholvia_dequeue_styles', 100);
 
+// =====================================================================
+// Translation System (Polylang integration)
+// =====================================================================
+
+/**
+ * Get all translation strings.
+ * Loaded once and cached in a static variable for the request lifecycle.
+ *
+ * @return array Associative array of all translations keyed by string ID,
+ *               each containing sub-arrays for 'en', 'id', 'ms', 'zh'.
+ */
+function scholvia_translations() {
+    static $translations = null;
+    if ($translations === null) {
+        $translations = require get_template_directory() . '/inc/translations.php';
+    }
+    return $translations;
+}
+
+/**
+ * Get a translated string for the current language.
+ *
+ * Uses Polylang's pll_current_language() to detect language, with 'en' as fallback.
+ *
+ * @param  string $key  The translation key (e.g. 'nav_home', 'hero_title_line1').
+ * @return string       The translated string, or the English fallback, or the key itself if not found.
+ */
+function scholvia_t($key) {
+    static $lang = null;
+    if ($lang === null) {
+        $lang = function_exists('pll_current_language') ? pll_current_language('slug') : 'en';
+        if (empty($lang)) {
+            $lang = 'en';
+        }
+    }
+    $translations = scholvia_translations();
+    if (!isset($translations[$key])) {
+        return $key; // Key not found — return key itself for debugging
+    }
+    // Return current language, fall back to English
+    if (isset($translations[$key][$lang])) {
+        return $translations[$key][$lang];
+    }
+    return $translations[$key]['en'] ?? $key;
+}
+
+/**
+ * Echo a translated string (convenience wrapper).
+ *
+ * @param string $key The translation key.
+ */
+function scholvia_te($key) {
+    echo esc_html(scholvia_t($key));
+}
+
+/**
+ * Echo a translated string without escaping (for strings containing HTML like <strong>).
+ *
+ * @param string $key The translation key.
+ */
+function scholvia_te_raw($key) {
+    echo wp_kses_post(scholvia_t($key));
+}
+
 // Contact form handler
 function scholvia_handle_contact_form() {
     if (!isset($_POST['scholvia_contact_nonce']) || !wp_verify_nonce($_POST['scholvia_contact_nonce'], 'scholvia_contact')) {
-        wp_send_json_error('Invalid request.');
+        wp_send_json_error(scholvia_t('ajax_invalid_request'));
     }
 
     $name    = sanitize_text_field($_POST['name'] ?? '');
@@ -66,7 +130,7 @@ function scholvia_handle_contact_form() {
     $message = sanitize_textarea_field($_POST['message'] ?? '');
 
     if (empty($name) || empty($email) || empty($message)) {
-        wp_send_json_error('Please fill in all required fields.');
+        wp_send_json_error(scholvia_t('ajax_fill_required'));
     }
 
     $to      = 'study@scholvia.com';
@@ -84,9 +148,9 @@ function scholvia_handle_contact_form() {
     $sent = wp_mail($to, 'Contact Form: ' . $subject, $body, $headers);
 
     if ($sent) {
-        wp_send_json_success('Message sent successfully!');
+        wp_send_json_success(scholvia_t('ajax_success'));
     } else {
-        wp_send_json_error('Failed to send message. Please try again.');
+        wp_send_json_error(scholvia_t('ajax_fail'));
     }
 }
 add_action('wp_ajax_scholvia_contact', 'scholvia_handle_contact_form');

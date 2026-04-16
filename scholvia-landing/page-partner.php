@@ -327,8 +327,8 @@
 <!-- Page Hero -->
 <section class="page-hero">
   <div class="container">
-    <h1>Partner With <span class="text-gradient">Scholvia</span></h1>
-    <p>Expand your international student enrollment through our overseas student recruitment expertise in Indonesia and Southeast Asia.</p>
+    <h1><?php scholvia_te('partner_hero_title_prefix'); ?> <span class="text-gradient"><?php scholvia_te('partner_hero_title_gradient'); ?></span></h1>
+    <p><?php scholvia_te('partner_hero_subtitle'); ?></p>
   </div>
 </section>
 
@@ -336,8 +336,8 @@
 <section class="partner-intro">
   <div class="container">
     <div class="partner-intro-inner reveal">
-      <h2>Overseas Student Recruitment You Can Trust</h2>
-      <p>Scholvia is an education consultancy specializing in overseas student recruitment, connecting qualified international students with reputable universities worldwide. We focus primarily on the Indonesian and Southeast Asian markets, supporting institutions in reaching, screening, and enrolling high-potential students through a structured and professional process.</p>
+      <h2><?php scholvia_te('partner_intro_title'); ?></h2>
+      <p><?php scholvia_te('partner_intro_text'); ?></p>
     </div>
   </div>
 </section>
@@ -347,44 +347,44 @@
   <div class="container">
     <div class="core-service-inner reveal">
       <div class="core-service-content">
-        <span class="section-label">Core Service</span>
-        <h2>End-to-End Student Recruitment</h2>
-        <p>We actively recruit, screen, and place international students into our partner institutions, ensuring a smooth, efficient, and quality-driven enrollment process.</p>
+        <span class="section-label"><?php scholvia_te('partner_core_label'); ?></span>
+        <h2><?php scholvia_te('partner_core_title'); ?></h2>
+        <p><?php scholvia_te('partner_core_text'); ?></p>
         <ul class="partner-features">
-          <li>Student sourcing &amp; targeted outreach</li>
-          <li>Pre-screening &amp; qualification of applicants</li>
-          <li>Strategic student&ndash;program matching</li>
-          <li>Application &amp; admission coordination</li>
-          <li>Offer letter &amp; enrollment management</li>
-          <li>Pre-departure preparation</li>
+          <li><?php scholvia_te('partner_feature1'); ?></li>
+          <li><?php scholvia_te('partner_feature2'); ?></li>
+          <li><?php scholvia_te('partner_feature3'); ?></li>
+          <li><?php scholvia_te('partner_feature4'); ?></li>
+          <li><?php scholvia_te('partner_feature5'); ?></li>
+          <li><?php scholvia_te('partner_feature6'); ?></li>
         </ul>
       </div>
       <div class="process-sidebar">
-        <h3>Our Recruitment Process</h3>
+        <h3><?php scholvia_te('partner_process_title'); ?></h3>
         <div class="process-steps">
           <div class="process-step">
             <span class="step-number">1</span>
-            <span class="step-text">Student sourcing &amp; marketing</span>
+            <span class="step-text"><?php scholvia_te('partner_step1'); ?></span>
           </div>
           <div class="process-step">
             <span class="step-number">2</span>
-            <span class="step-text">Initial screening &amp; qualification</span>
+            <span class="step-text"><?php scholvia_te('partner_step2'); ?></span>
           </div>
           <div class="process-step">
             <span class="step-number">3</span>
-            <span class="step-text">Program &amp; university matching</span>
+            <span class="step-text"><?php scholvia_te('partner_step3'); ?></span>
           </div>
           <div class="process-step">
             <span class="step-number">4</span>
-            <span class="step-text">Application submission</span>
+            <span class="step-text"><?php scholvia_te('partner_step4'); ?></span>
           </div>
           <div class="process-step">
             <span class="step-number">5</span>
-            <span class="step-text">Offer &amp; acceptance coordination</span>
+            <span class="step-text"><?php scholvia_te('partner_step5'); ?></span>
           </div>
           <div class="process-step">
             <span class="step-number">6</span>
-            <span class="step-text">Pre-departure support</span>
+            <span class="step-text"><?php scholvia_te('partner_step6'); ?></span>
           </div>
         </div>
       </div>
@@ -396,28 +396,28 @@
 <section class="market-section">
   <div class="container text-center">
     <div class="reveal">
-      <span class="section-label">Our Reach</span>
-      <h2 class="section-title">Market Focus</h2>
-      <p class="section-subtitle">We know our markets deeply and recruit with precision.</p>
+      <span class="section-label"><?php scholvia_te('partner_market_label'); ?></span>
+      <h2 class="section-title"><?php scholvia_te('partner_market_title'); ?></h2>
+      <p class="section-subtitle"><?php scholvia_te('partner_market_subtitle'); ?></p>
     </div>
     <div class="market-grid">
       <div class="glass-card market-card reveal">
         <div class="market-icon">&#127470;&#127465;</div>
-        <h3>Indonesia</h3>
-        <p>Our home base and primary market. Strong networks across Jakarta, Bandung, Surabaya, and beyond.</p>
-        <span class="badge badge-primary">Primary Market</span>
+        <h3><?php scholvia_te('partner_market1_title'); ?></h3>
+        <p><?php scholvia_te('partner_market1_text'); ?></p>
+        <span class="badge badge-primary"><?php scholvia_te('partner_market1_badge'); ?></span>
       </div>
       <div class="glass-card market-card reveal" style="transition-delay: 0.1s;">
         <div class="market-icon">&#127468;&#127463;</div>
-        <h3>Southeast Asia</h3>
-        <p>Expanding presence in Malaysia, Vietnam, and the Philippines through strategic partnerships.</p>
-        <span class="badge badge-secondary">Expanding</span>
+        <h3><?php scholvia_te('partner_market2_title'); ?></h3>
+        <p><?php scholvia_te('partner_market2_text'); ?></p>
+        <span class="badge badge-secondary"><?php scholvia_te('partner_market2_badge'); ?></span>
       </div>
       <div class="glass-card market-card reveal" style="transition-delay: 0.2s;">
         <div class="market-icon">&#127758;</div>
-        <h3>Global Students</h3>
-        <p>International students seeking quality education opportunities at accredited institutions worldwide.</p>
-        <span class="badge badge-secondary">Growing</span>
+        <h3><?php scholvia_te('partner_market3_title'); ?></h3>
+        <p><?php scholvia_te('partner_market3_text'); ?></p>
+        <span class="badge badge-secondary"><?php scholvia_te('partner_market3_badge'); ?></span>
       </div>
     </div>
   </div>
@@ -427,38 +427,38 @@
 <section class="why-partner-section">
   <div class="container text-center">
     <div class="reveal">
-      <span class="section-label">The Scholvia Advantage</span>
-      <h2 class="section-title">Why Choose Scholvia</h2>
-      <p class="section-subtitle">What sets Scholvia apart from every other education agency.</p>
+      <span class="section-label"><?php scholvia_te('partner_why_label'); ?></span>
+      <h2 class="section-title"><?php scholvia_te('svc_why_title'); ?></h2>
+      <p class="section-subtitle"><?php scholvia_te('svc_why_subtitle'); ?></p>
     </div>
     <div class="why-partner-grid">
       <div class="glass-card-dark reveal">
         <div class="why-partner-icon">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
         </div>
-        <h3>Strong Access to Indonesian Market</h3>
-        <p>We focus on connecting universities with students from Indonesia, one of the fastest-growing international student markets in Southeast Asia.</p>
+        <h3><?php scholvia_te('svc_why_card1_title'); ?></h3>
+        <p><?php scholvia_te('svc_why_card1_text'); ?></p>
       </div>
       <div class="glass-card-dark reveal" style="transition-delay: 0.1s;">
         <div class="why-partner-icon">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/></svg>
         </div>
-        <h3>Quality-Focused Student Matching</h3>
-        <p>We prioritize student quality over quantity by carefully screening and matching students to the right programs and institutions.</p>
+        <h3><?php scholvia_te('svc_why_card2_title'); ?></h3>
+        <p><?php scholvia_te('svc_why_card2_text'); ?></p>
       </div>
       <div class="glass-card-dark reveal" style="transition-delay: 0.2s;">
         <div class="why-partner-icon">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 01-.825-.242m9.345-8.334a2.126 2.126 0 00-.476-.095 48.64 48.64 0 00-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0011.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"/></svg>
         </div>
-        <h3>End-to-End Student Support</h3>
-        <p>From initial consultation to enrollment and pre-departure, we manage the full journey to ensure a smooth experience for both students and partner institutions.</p>
+        <h3><?php scholvia_te('svc_why_card3_title'); ?></h3>
+        <p><?php scholvia_te('svc_why_card3_text'); ?></p>
       </div>
       <div class="glass-card-dark reveal" style="transition-delay: 0.3s;">
         <div class="why-partner-icon">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"/></svg>
         </div>
-        <h3>Professional &amp; Transparent Communication</h3>
-        <p>We maintain clear, responsive, and structured communication with both students and partner universities.</p>
+        <h3><?php scholvia_te('svc_why_card4_title'); ?></h3>
+        <p><?php scholvia_te('svc_why_card4_text'); ?></p>
       </div>
     </div>
   </div>
@@ -468,9 +468,9 @@
 <section class="partner-cta">
   <div class="container">
     <div class="partner-cta-inner reveal">
-      <span class="section-label">Get In Touch</span>
-      <h2>Let's Collaborate</h2>
-      <p>We welcome partnerships with universities, colleges, and institutions seeking to expand their international student recruitment in Southeast Asia.</p>
+      <span class="section-label"><?php scholvia_te('partner_cta_label'); ?></span>
+      <h2><?php scholvia_te('partner_cta_title'); ?></h2>
+      <p><?php scholvia_te('partner_cta_text'); ?></p>
       <div class="partner-contact-info">
         <a href="mailto:study@scholvia.com">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
@@ -481,15 +481,15 @@
           scholvia.com
         </a>
       </div>
-      <a href="mailto:study@scholvia.com" class="btn btn-primary">Start a Partnership</a>
+      <a href="mailto:study@scholvia.com" class="btn btn-primary"><?php scholvia_te('partner_btn_start'); ?></a>
       <div class="partner-socials">
-        <a href="https://instagram.com/scholviaofficial" target="_blank" rel="noopener" aria-label="Instagram">
+        <a href="https://instagram.com/scholviaofficial" target="_blank" rel="noopener" aria-label="<?php echo esc_attr(scholvia_t('social_instagram')); ?>">
           <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
         </a>
-        <a href="https://linkedin.com/company/scholvia/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <a href="https://linkedin.com/company/scholvia/" target="_blank" rel="noopener" aria-label="<?php echo esc_attr(scholvia_t('social_linkedin')); ?>">
           <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         </a>
-        <a href="https://facebook.com/share/1Yma7Hx8Kg/" target="_blank" rel="noopener" aria-label="Facebook">
+        <a href="https://facebook.com/share/1Yma7Hx8Kg/" target="_blank" rel="noopener" aria-label="<?php echo esc_attr(scholvia_t('social_facebook')); ?>">
           <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
         </a>
       </div>
