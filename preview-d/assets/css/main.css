@@ -1460,28 +1460,42 @@ h1, h2, h3, h4, h5, h6 {
 .lang-dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   right: 0;
+  padding-top: 8px;
   min-width: 80px;
   background: var(--white);
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-md);
   border: 1px solid rgba(0,0,0,0.06);
   overflow: hidden;
-  z-index: 100;
+  z-index: 10001;
+  flex-direction: column;
 }
-.lang-switcher:hover .lang-dropdown,
-.lang-switcher:focus-within .lang-dropdown { display: block; }
-.lang-dropdown a {
-  display: block;
-  padding: 10px 16px;
-  font-family: var(--font-heading);
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--deep-indigo);
-  transition: var(--transition);
+.lang-switcher.open .lang-dropdown { display: flex; }
+.lang-switcher.open .lang-current svg {
+  transform: rotate(180deg);
 }
-.lang-dropdown a:hover { background: var(--lavender-white); color: var(--royal-blue); }
+.lang-current svg {
+  transition: transform 0.2s ease;
+}
+.lang-dropdown a,
+.lang-dropdown a:link,
+.lang-dropdown a:visited {
+  display: block !important;
+  padding: 10px 16px !important;
+  font-family: var(--font-heading) !important;
+  font-size: 0.82rem !important;
+  font-weight: 500 !important;
+  color: var(--deep-indigo) !important;
+  white-space: nowrap;
+  position: static !important;
+}
+.lang-dropdown a::after { display: none !important; }
+.lang-dropdown a:hover {
+  background: var(--lavender-white) !important;
+  color: var(--royal-blue) !important;
+}
 
 @media (max-width: 768px) {
   .lang-switcher { margin-left: 0; margin-top: 12px; }

@@ -61,6 +61,35 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* ---------- Language Switcher (click toggle) ---------- */
+  const langSwitcher = document.querySelector('.lang-switcher');
+  const langBtn = document.querySelector('.lang-current');
+
+  if (langSwitcher && langBtn) {
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      langSwitcher.classList.toggle('open');
+      langBtn.setAttribute('aria-expanded', langSwitcher.classList.contains('open'));
+    });
+
+    // Close when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!langSwitcher.contains(e.target)) {
+        langSwitcher.classList.remove('open');
+        langBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Close when pressing Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && langSwitcher.classList.contains('open')) {
+        langSwitcher.classList.remove('open');
+        langBtn.setAttribute('aria-expanded', 'false');
+        langBtn.focus();
+      }
+    });
+  }
+
   /* ---------- Smooth Scroll for anchor links ---------- */
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {

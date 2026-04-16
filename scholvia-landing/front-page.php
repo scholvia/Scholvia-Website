@@ -34,7 +34,7 @@
               <div class="stat-label"><?php scholvia_te('stat_student_rating'); ?></div>
             </div>
             <div class="stat-item">
-              <div class="stat-value"><span data-counter="400" data-suffix="+">0+</span></div>
+              <div class="stat-value"><span data-counter="5" data-suffix="+">0+</span></div>
               <div class="stat-label"><?php scholvia_te('stat_partner_unis'); ?></div>
             </div>
           </div>
@@ -201,20 +201,6 @@
           <blockquote><?php scholvia_te('guide_quote'); ?></blockquote>
           <p class="guide-name"><?php scholvia_te('guide_name'); ?> <a href="https://www.linkedin.com/in/citragustina/" target="_blank" rel="noopener" class="linkedin-link" aria-label="<?php echo esc_attr(scholvia_t('guide_linkedin_aria')); ?>"><svg viewBox="0 0 24 24" width="18" height="18" style="vertical-align: middle; margin-left: 6px; fill: #E85D3A;"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></p>
           <p class="guide-role"><?php scholvia_te('guide_role'); ?></p>
-          <div class="guide-stats">
-            <div class="guide-stat">
-              <div class="guide-stat-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"/></svg>
-              </div>
-              <span class="guide-stat-text"><?php scholvia_te('guide_stat_team'); ?></span>
-            </div>
-            <div class="guide-stat">
-              <div class="guide-stat-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              </div>
-              <span class="guide-stat-text"><?php scholvia_te('guide_stat_response'); ?></span>
-            </div>
-          </div>
         </div>
       </div>
     </div>

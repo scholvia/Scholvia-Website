@@ -30,10 +30,10 @@ function scholvia_enqueue_assets() {
     );
 
     // Main stylesheet
-    wp_enqueue_style('scholvia-main', get_template_directory_uri() . '/assets/css/main.css', array(), '2.3.0');
+    wp_enqueue_style('scholvia-main', get_template_directory_uri() . '/assets/css/main.css', array(), '2.3.2');
 
     // Main script
-    wp_enqueue_script('scholvia-main', get_template_directory_uri() . '/assets/js/main.js', array(), '2.3.0', true);
+    wp_enqueue_script('scholvia-main', get_template_directory_uri() . '/assets/js/main.js', array(), '2.3.2', true);
 
     // Localize AJAX URL for the contact form script
     wp_localize_script('scholvia-main', 'scholvia_ajax', array(
@@ -51,6 +51,37 @@ function scholvia_dequeue_styles() {
     wp_dequeue_style('classic-theme-styles');
 }
 add_action('wp_enqueue_scripts', 'scholvia_dequeue_styles', 100);
+
+// =====================================================================
+// Polylang: force correct templates for translated pages
+// =====================================================================
+add_filter('template_include', function ($template) {
+    if (!function_exists('pll_current_language')) return $template;
+
+    // Map translated slugs to their English template equivalents
+    $slug = get_post_field('post_name', get_the_ID());
+    $home_slugs = array('beranda', 'utama', 'shouye');
+    $about_slugs = array('tentang', 'tentang-kami', 'guanyu');
+    $services_slugs = array('layanan', 'perkhidmatan', 'fuwu');
+    $contact_slugs = array('kontak', 'hubungi', 'lianxi');
+    $partner_slugs = array('mitra', 'rakan-kongsi', 'hezuo');
+
+    $theme_dir = get_template_directory();
+
+    if (in_array($slug, $home_slugs)) {
+        return $theme_dir . '/front-page.php';
+    } elseif (in_array($slug, $about_slugs)) {
+        return $theme_dir . '/page-about.php';
+    } elseif (in_array($slug, $services_slugs)) {
+        return $theme_dir . '/page-services.php';
+    } elseif (in_array($slug, $contact_slugs)) {
+        return $theme_dir . '/page-contact.php';
+    } elseif (in_array($slug, $partner_slugs)) {
+        return $theme_dir . '/page-partner.php';
+    }
+
+    return $template;
+});
 
 // =====================================================================
 // Translation System (Polylang integration)

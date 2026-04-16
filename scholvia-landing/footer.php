@@ -47,8 +47,6 @@
         <a href="mailto:study@scholvia.com">study@scholvia.com</a>
         <a href="tel:+6281388666994">+62 813 88 666 994</a>
         <a href="tel:+60142235105">+60 14 2235 105</a>
-        <a href="#"><?php scholvia_te('footer_jakarta'); ?></a>
-        <a href="#"><?php scholvia_te('footer_kuala_lumpur'); ?></a>
       </div>
     </div>
     <div class="footer-bottom">

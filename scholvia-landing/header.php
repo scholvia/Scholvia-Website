@@ -34,7 +34,7 @@
         $current_lang = pll_current_language('slug');
         $lang_labels = array('en' => 'EN', 'id' => 'ID', 'ms' => 'MS', 'zh' => '中文');
         ?>
-        <button class="lang-current"><?php echo esc_html($lang_labels[$current_lang] ?? 'EN'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+        <button type="button" class="lang-current" aria-expanded="false" aria-haspopup="true"><?php echo esc_html($lang_labels[$current_lang] ?? 'EN'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
         <div class="lang-dropdown">
           <?php
           $languages = pll_the_languages(array('raw' => 1));

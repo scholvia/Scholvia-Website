@@ -156,22 +156,22 @@ return array(
         'zh' => '深受东南亚100多名学生的信赖',
     ),
     'hero_title_line1' => array(
-        'en' => 'Your Life,',
-        'id' => 'Hidupmu,',
-        'ms' => 'Hidup Anda,',
-        'zh' => '你的人生，',
+        'en' => 'Your Future,',
+        'id' => 'Masa Depanmu,',
+        'ms' => 'Masa Depan Anda,',
+        'zh' => '你的未来，',
     ),
     'hero_title_line2' => array(
-        'en' => 'Without',
-        'id' => 'Tanpa',
-        'ms' => 'Tanpa',
-        'zh' => '无',
+        'en' => 'Our',
+        'id' => 'Misi',
+        'ms' => 'Misi',
+        'zh' => '我们的',
     ),
     'hero_title_gradient' => array(
-        'en' => 'Borders.',
-        'id' => 'Batas.',
-        'ms' => 'Sempadan.',
-        'zh' => '界限。',
+        'en' => 'Mission.',
+        'id' => 'Kami.',
+        'ms' => 'Kami.',
+        'zh' => '使命。',
     ),
     'hero_subtitle' => array(
         'en' => 'Scholvia walks beside you from your first dream of studying abroad to your first day on campus — and stays with you after.',
@@ -217,10 +217,10 @@ return array(
         'zh' => '学生评分',
     ),
     'stat_partner_unis' => array(
-        'en' => 'Partner Unis',
-        'id' => 'Universitas Mitra',
-        'ms' => 'Universiti Rakan Kongsi',
-        'zh' => '合作大学',
+        'en' => 'Countries Covered',
+        'id' => 'Negara Terjangkau',
+        'ms' => 'Negara Diliputi',
+        'zh' => '覆盖国家',
     ),
 
     // =====================================================================
@@ -233,10 +233,10 @@ return array(
         'zh' => '持牌机构',
     ),
     'trust_partner_institutions' => array(
-        'en' => '400+ Partner Institutions',
-        'id' => '400+ Institusi Mitra',
-        'ms' => '400+ Institusi Rakan Kongsi',
-        'zh' => '400+合作院校',
+        'en' => 'Multi-Country Network',
+        'id' => 'Jaringan Multi-Negara',
+        'ms' => 'Rangkaian Pelbagai Negara',
+        'zh' => '多国合作网络',
     ),
     'trust_247_support' => array(
         'en' => '24/7 Student Support',
@@ -760,10 +760,10 @@ return array(
         'zh' => 'Scholvia由<strong>Citra Agustina</strong>创立，怀着一个简单而有力的信念：每个学生都值得拥有一位真心关心他们未来的引路人。不是推销，不是交易，而是真实的关系。',
     ),
     'about_text_2' => array(
-        'en' => 'Based in Jakarta and Kuala Lumpur, we are a team of 8 dedicated consultants who specialize in helping students from Indonesia and Malaysia study abroad. From university enrollment to visa assistance, language preparation to post-arrival support — we handle it all.',
-        'id' => 'Berbasis di Jakarta dan Kuala Lumpur, kami adalah tim 8 konsultan berdedikasi yang berspesialisasi membantu siswa dari Indonesia dan Malaysia kuliah di luar negeri. Dari pendaftaran universitas hingga bantuan visa, persiapan bahasa hingga dukungan pasca-kedatangan — kami menangani semuanya.',
-        'ms' => 'Berpusat di Jakarta dan Kuala Lumpur, kami adalah pasukan 8 perunding berdedikasi yang mengkhusus dalam membantu pelajar dari Indonesia dan Malaysia belajar di luar negara. Daripada pendaftaran universiti hingga bantuan visa, persediaan bahasa hingga sokongan pasca-ketibaan — kami menguruskan semuanya.',
-        'zh' => '我们总部位于雅加达和吉隆坡，拥有8位专业顾问团队，专注于帮助来自印度尼西亚和马来西亚的学生海外留学。从大学申请到签证协助，从语言准备到抵达后支持——我们一站式处理。',
+        'en' => 'Based in Kuala Lumpur, we are a dedicated team specializing in helping students from Indonesia and Malaysia study abroad. From university enrollment to visa assistance, language preparation to post-arrival support — we handle it all.',
+        'id' => 'Berbasis di Kuala Lumpur, kami adalah tim berdedikasi yang berspesialisasi membantu siswa dari Indonesia dan Malaysia kuliah di luar negeri. Dari pendaftaran universitas hingga bantuan visa, persiapan bahasa hingga dukungan pasca-kedatangan — kami menangani semuanya.',
+        'ms' => 'Berpusat di Kuala Lumpur, kami adalah pasukan berdedikasi yang mengkhusus dalam membantu pelajar dari Indonesia dan Malaysia belajar di luar negara. Daripada pendaftaran universiti hingga bantuan visa, persediaan bahasa hingga sokongan pasca-ketibaan — kami menguruskan semuanya.',
+        'zh' => '我们总部位于吉隆坡，是一支专业团队，专注于帮助来自印度尼西亚和马来西亚的学生海外留学。从大学申请到签证协助，从语言准备到抵达后支持——我们一站式处理。',
     ),
     'about_text_3' => array(
         'en' => 'What makes us different? We do not disappear after you land. We stay with you throughout your journey, answering questions at 2 AM, helping you navigate homesickness, celebrating your wins. That is what family does.',
@@ -772,10 +772,10 @@ return array(
         'zh' => '是什么让我们与众不同？我们不会在你抵达后就消失。我们全程陪伴你，凌晨两点回答你的问题，帮你度过思乡之情，庆祝你的每一次成功。这就是家人该做的事。',
     ),
     'about_text_4' => array(
-        'en' => 'With over 400 partner institutions and a 98% visa success rate, we have the expertise. But it is the personal touch that students remember most.',
-        'id' => 'Dengan lebih dari 400 institusi mitra dan tingkat keberhasilan visa 98%, kami memiliki keahliannya. Tapi sentuhan personal lah yang paling diingat siswa.',
-        'ms' => 'Dengan lebih 400 institusi rakan kongsi dan kadar kejayaan visa 98%, kami mempunyai kepakaran. Tetapi sentuhan peribadi itulah yang paling diingati pelajar.',
-        'zh' => '凭借400多所合作院校和98%的签证成功率，我们拥有专业能力。但学生们最记得的，是我们的个人关怀。',
+        'en' => 'With partner institutions across multiple countries and a 98% visa success rate, we have the expertise. But it is the personal touch that students remember most.',
+        'id' => 'Dengan institusi mitra di berbagai negara dan tingkat keberhasilan visa 98%, kami memiliki keahliannya. Tapi sentuhan personal lah yang paling diingat siswa.',
+        'ms' => 'Dengan institusi rakan kongsi di pelbagai negara dan kadar kejayaan visa 98%, kami mempunyai kepakaran. Tetapi sentuhan peribadi itulah yang paling diingati pelajar.',
+        'zh' => '凭借多国合作院校和98%的签证成功率，我们拥有专业能力。但学生们最记得的，是我们的个人关怀。',
     ),
 
     // =====================================================================
@@ -974,10 +974,10 @@ return array(
         'zh' => '你们与哪些国家和大学合作？',
     ),
     'faq_a3' => array(
-        'en' => 'Scholvia partners with over 400 institutions across Malaysia, Australia, the UK, Canada, and other popular study destinations. We work with both public and private universities, colleges, and language schools to find the best fit for your academic goals, budget, and personal preferences.',
-        'id' => 'Scholvia bermitra dengan lebih dari 400 institusi di Malaysia, Australia, Inggris, Kanada, dan destinasi studi populer lainnya. Kami bekerja sama dengan universitas negeri dan swasta, kolese, dan sekolah bahasa untuk menemukan yang paling cocok untuk tujuan akademis, anggaran, dan preferensi pribadimu.',
-        'ms' => 'Scholvia bekerjasama dengan lebih 400 institusi di Malaysia, Australia, UK, Kanada, dan destinasi pengajian popular lain. Kami bekerjasama dengan universiti awam dan swasta, kolej, dan sekolah bahasa untuk mencari yang paling sesuai dengan matlamat akademik, bajet, dan keutamaan peribadi anda.',
-        'zh' => 'Scholvia与马来西亚、澳大利亚、英国、加拿大等热门留学目的地的400多所院校建立了合作关系。我们与公立和私立大学、学院和语言学校合作，为你找到最适合你学术目标、预算和个人偏好的院校。',
+        'en' => 'Scholvia partners with institutions across Malaysia, Australia, the UK, Canada, and other popular study destinations. We work with both public and private universities, colleges, and language schools to find the best fit for your academic goals, budget, and personal preferences.',
+        'id' => 'Scholvia bermitra dengan institusi di Malaysia, Australia, Inggris, Kanada, dan destinasi studi populer lainnya. Kami bekerja sama dengan universitas negeri dan swasta, kolese, dan sekolah bahasa untuk menemukan yang paling cocok untuk tujuan akademis, anggaran, dan preferensi pribadimu.',
+        'ms' => 'Scholvia bekerjasama dengan institusi di Malaysia, Australia, UK, Kanada, dan destinasi pengajian popular lain. Kami bekerjasama dengan universiti awam dan swasta, kolej, dan sekolah bahasa untuk mencari yang paling sesuai dengan matlamat akademik, bajet, dan keutamaan peribadi anda.',
+        'zh' => 'Scholvia与马来西亚、澳大利亚、英国、加拿大等热门留学目的地的院校建立了合作关系。我们与公立和私立大学、学院和语言学校合作，为你找到最适合你学术目标、预算和个人偏好的院校。',
     ),
     'faq_q4' => array(
         'en' => 'How long does the enrollment process take?',
@@ -1078,10 +1078,10 @@ return array(
         'zh' => '入学面试辅导',
     ),
     'svc1_note' => array(
-        'en' => 'Access to 400+ partner institutions worldwide',
-        'id' => 'Akses ke 400+ institusi mitra di seluruh dunia',
-        'ms' => 'Akses ke 400+ institusi rakan kongsi di seluruh dunia',
-        'zh' => '可接入全球400多所合作院校',
+        'en' => 'Partner institutions across multiple countries',
+        'id' => 'Institusi mitra di berbagai negara',
+        'ms' => 'Institusi rakan kongsi di pelbagai negara',
+        'zh' => '多国合作院校网络',
     ),
 
     // =====================================================================
