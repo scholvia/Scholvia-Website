@@ -30,10 +30,10 @@ function scholvia_enqueue_assets() {
     );
 
     // Main stylesheet
-    wp_enqueue_style('scholvia-main', get_template_directory_uri() . '/assets/css/main.css', array(), '2.1.0');
+    wp_enqueue_style('scholvia-main', get_template_directory_uri() . '/assets/css/main.css', array(), '2.2.0');
 
     // Main script
-    wp_enqueue_script('scholvia-main', get_template_directory_uri() . '/assets/js/main.js', array(), '2.1.0', true);
+    wp_enqueue_script('scholvia-main', get_template_directory_uri() . '/assets/js/main.js', array(), '2.2.0', true);
 
     // Localize AJAX URL for the contact form script
     wp_localize_script('scholvia-main', 'scholvia_ajax', array(
