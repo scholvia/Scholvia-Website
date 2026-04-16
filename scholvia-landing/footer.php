@@ -31,6 +31,7 @@
         <a href="<?php echo esc_url(home_url('/')); ?>"><?php esc_html_e('Home', 'scholvia-landing'); ?></a>
         <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>"><?php esc_html_e('About Us', 'scholvia-landing'); ?></a>
         <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>"><?php esc_html_e('Services', 'scholvia-landing'); ?></a>
+        <a href="<?php echo esc_url(get_permalink(get_page_by_path('partner'))); ?>"><?php esc_html_e('Partner With Us', 'scholvia-landing'); ?></a>
         <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>"><?php esc_html_e('Contact', 'scholvia-landing'); ?></a>
       </div>
       <div class="footer-col">

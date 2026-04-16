@@ -221,7 +221,7 @@
       </div>
       <div class="service-content">
         <h2>University Enrollment Assistance</h2>
-        <p>As a trusted overseas student recruitment partner, we match you with the right university based on your academic goals, career aspirations, budget, and lifestyle preferences. Our team handles the entire application process so you can focus on what matters most — preparing for your future.</p>
+        <p>We match you with the right university based on your academic goals, career aspirations, budget, and lifestyle preferences. Our team handles the entire application process so you can focus on what matters most — preparing for your future.</p>
         <ul class="service-features">
           <li>Personalized university matching</li>
           <li>Application document preparation</li>
