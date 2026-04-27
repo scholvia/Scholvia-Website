@@ -18,28 +18,6 @@
             <a href="#how-it-works" class="btn btn-outline"><?php scholvia_te('hero_btn_how_it_works'); ?></a>
           </div>
         </div>
-        <div class="hero-dashboard">
-          <div class="dashboard-header"><?php scholvia_te('dashboard_header'); ?></div>
-          <div class="dashboard-stats">
-            <div class="stat-item">
-              <div class="stat-value"><span data-counter="98" data-suffix="%">0%</span></div>
-              <div class="stat-label"><?php scholvia_te('stat_visa_success'); ?></div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-value"><span data-counter="100" data-suffix="+">0+</span></div>
-              <div class="stat-label"><?php scholvia_te('stat_students_placed'); ?></div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-value"><span data-counter="4.9" data-suffix="/5">0/5</span></div>
-              <div class="stat-label"><?php scholvia_te('stat_student_rating'); ?></div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-value"><span data-counter="5" data-suffix="+">0+</span></div>
-              <div class="stat-label"><?php scholvia_te('stat_partner_unis'); ?></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
