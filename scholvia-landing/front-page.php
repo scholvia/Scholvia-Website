@@ -87,52 +87,6 @@
     </div>
   </section>
 
-  <!-- ========== A DAY IN THE LIFE ========== -->
-  <section class="day-section">
-    <div class="container text-center">
-      <div class="reveal">
-        <span class="section-label"><?php scholvia_te('day_label'); ?></span>
-        <h2 class="section-title"><?php scholvia_te('day_title'); ?></h2>
-        <p class="section-subtitle"><?php scholvia_te('day_subtitle'); ?></p>
-      </div>
-      <div class="day-grid">
-        <div class="day-card reveal">
-          <div class="day-card-top morning">
-            <span class="day-badge"><?php scholvia_te('day_morning'); ?></span>
-            <span class="day-emoji">&#9749;</span>
-          </div>
-          <div class="day-card-body">
-            <h3><?php scholvia_te('day_card1_title'); ?></h3>
-            <p class="student-name"><?php scholvia_te('day_card1_name'); ?></p>
-            <blockquote><?php scholvia_te('day_card1_quote'); ?></blockquote>
-          </div>
-        </div>
-        <div class="day-card reveal" style="transition-delay: 0.1s;">
-          <div class="day-card-top afternoon">
-            <span class="day-badge"><?php scholvia_te('day_afternoon'); ?></span>
-            <span class="day-emoji">&#128187;</span>
-          </div>
-          <div class="day-card-body">
-            <h3><?php scholvia_te('day_card2_title'); ?></h3>
-            <p class="student-name"><?php scholvia_te('day_card2_name'); ?></p>
-            <blockquote><?php scholvia_te('day_card2_quote'); ?></blockquote>
-          </div>
-        </div>
-        <div class="day-card reveal" style="transition-delay: 0.2s;">
-          <div class="day-card-top evening">
-            <span class="day-badge"><?php scholvia_te('day_evening'); ?></span>
-            <span class="day-emoji">&#127769;</span>
-          </div>
-          <div class="day-card-body">
-            <h3><?php scholvia_te('day_card3_title'); ?></h3>
-            <p class="student-name"><?php scholvia_te('day_card3_name'); ?></p>
-            <blockquote><?php scholvia_te('day_card3_quote'); ?></blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ========== HOW IT WORKS ========== -->
   <section class="steps-section" id="how-it-works">
     <div class="container text-center">
