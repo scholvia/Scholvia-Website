@@ -919,6 +919,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: 40px 24px;
 }
 
+.metric-icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto;
+  background: rgba(232,93,58,0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--royal-blue);
+}
+
+.metric-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
 .metric-value {
   font-family: var(--font-heading);
   font-size: 2.4rem;
