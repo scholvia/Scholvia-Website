@@ -1134,10 +1134,10 @@ return array(
         'zh' => '签证咨询与留学支持',
     ),
     'svc3_text' => array(
-        'en' => 'Navigating visa requirements can be overwhelming. Our experienced team breaks down the process into clear, manageable steps and handles the paperwork so you do not have to stress.',
-        'id' => 'Memahami persyaratan visa bisa sangat membingungkan. Tim berpengalaman kami memecah prosesnya menjadi langkah-langkah yang jelas dan mudah dikelola serta mengurus dokumennya agar kamu tidak perlu stres.',
-        'ms' => 'Mengemudi keperluan visa boleh menjadi rumit. Pasukan berpengalaman kami memecahkan proses ini kepada langkah-langkah yang jelas dan mudah diurus serta mengendalikan dokumen supaya anda tidak perlu risau.',
-        'zh' => '签证要求可能让人感到不知所措。我们经验丰富的团队将流程拆解为清晰、可操作的步骤，并处理所有文件工作，让你无需焦虑。',
+        'en' => 'Navigating visa requirements can be overwhelming. We break down the process into clear steps and handle the paperwork with you.',
+        'id' => 'Memahami persyaratan visa bisa sangat membingungkan. Kami memecah prosesnya menjadi langkah-langkah yang jelas dan mengurus dokumennya bersama kamu.',
+        'ms' => 'Mengemudi keperluan visa boleh menjadi rumit. Kami memecahkan proses ini kepada langkah-langkah yang jelas dan mengendalikan dokumen bersama anda.',
+        'zh' => '签证要求可能让人感到不知所措。我们将流程拆解为清晰的步骤，与你一起处理所有文件工作。',
     ),
     'svc3_feature1' => array(
         'en' => 'Student visa application guidance',
