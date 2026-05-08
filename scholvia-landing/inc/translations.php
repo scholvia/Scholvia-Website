@@ -932,10 +932,10 @@ return array(
         'zh' => 'Scholvia提供哪些服务？',
     ),
     'faq_a1' => array(
-        'en' => 'Scholvia offers comprehensive education consulting services including university enrollment assistance, language course and test preparation (IELTS, TOEFL, SAT), visa consultation and study abroad support, education-tourism programs, and 24/7 student support services. We guide you through every step from choosing the right university to settling in after arrival.',
-        'id' => 'Scholvia menawarkan layanan konsultasi pendidikan komprehensif termasuk bantuan pendaftaran universitas, kursus bahasa dan persiapan tes (IELTS, TOEFL, SAT), konsultasi visa dan dukungan kuliah di luar negeri, program wisata edukasi, dan layanan dukungan siswa 24/7. Kami membimbing kamu di setiap langkah dari memilih universitas yang tepat hingga beradaptasi setelah tiba.',
-        'ms' => 'Scholvia menawarkan perkhidmatan konsultasi pendidikan yang komprehensif termasuk bantuan pendaftaran universiti, kursus bahasa dan persediaan ujian (IELTS, TOEFL, SAT), konsultasi visa dan sokongan belajar di luar negara, program pelancongan pendidikan, dan perkhidmatan sokongan pelajar 24/7. Kami membimbing anda di setiap langkah dari memilih universiti yang tepat hingga menyesuaikan diri selepas tiba.',
-        'zh' => 'Scholvia提供全面的教育咨询服务，包括大学入学协助、语言课程和考试准备（雅思、托福、SAT）、签证咨询和留学支持、教育旅游项目以及全天候学生支持服务。我们从选择合适的大学到抵达后安顿下来，全程为你提供指导。',
+        'en' => 'We help students with university enrollment and student visa applications. That means finding the right program, preparing documents, submitting applications, and guiding you through the visa process.',
+        'id' => 'Kami membantu siswa dengan pendaftaran universitas dan pengajuan visa pelajar. Artinya menemukan program yang tepat, menyiapkan dokumen, mengajukan aplikasi, dan membimbing kamu melalui proses visa.',
+        'ms' => 'Kami membantu pelajar dengan pendaftaran universiti dan permohonan visa pelajar. Iaitu mencari program yang sesuai, menyediakan dokumen, menghantar permohonan, dan membimbing anda melalui proses visa.',
+        'zh' => '我们帮助学生办理大学入学和学生签证申请。包括寻找合适的专业、准备文件、提交申请，以及全程指导签证流程。',
     ),
     'faq_q2' => array(
         'en' => 'Is there a fee for the initial consultation?',
@@ -944,10 +944,10 @@ return array(
         'zh' => '初次咨询需要收费吗？',
     ),
     'faq_a2' => array(
-        'en' => 'No! Your initial consultation with Scholvia is completely free. We believe every student deserves the chance to explore their options without financial pressure. During this session, we will discuss your goals, assess your options, and create a personalized plan — all at no cost to you.',
-        'id' => 'Tidak! Konsultasi awal dengan Scholvia sepenuhnya gratis. Kami percaya setiap siswa berhak mendapat kesempatan untuk mengeksplorasi pilihan tanpa tekanan finansial. Selama sesi ini, kami akan membahas tujuanmu, menilai pilihanmu, dan membuat rencana personal — semuanya tanpa biaya.',
-        'ms' => 'Tidak! Konsultasi awal anda dengan Scholvia adalah percuma sepenuhnya. Kami percaya setiap pelajar layak mendapat peluang untuk meneroka pilihan mereka tanpa tekanan kewangan. Semasa sesi ini, kami akan membincangkan matlamat anda, menilai pilihan anda, dan mencipta pelan yang diperibadikan — semuanya tanpa kos kepada anda.',
-        'zh' => '不收费！Scholvia的初次咨询完全免费。我们相信每个学生都应该有机会在没有经济压力的情况下探索自己的选择。在这次咨询中，我们会讨论你的目标、评估你的选择，并制定个性化方案——完全免费。',
+        'en' => 'No. The first consultation is free. We talk about your goals, your budget, and what\'s realistic — no commitment needed.',
+        'id' => 'Tidak. Konsultasi pertama gratis. Kami membahas tujuanmu, anggaranmu, dan apa yang realistis — tanpa komitmen.',
+        'ms' => 'Tidak. Konsultasi pertama adalah percuma. Kami berbincang tentang matlamat anda, bajet anda, dan apa yang realistik — tiada komitmen diperlukan.',
+        'zh' => '不收费。首次咨询免费。我们会讨论你的目标、预算和实际情况——无需任何承诺。',
     ),
     'faq_q3' => array(
         'en' => 'Which countries and universities do you work with?',
@@ -956,10 +956,10 @@ return array(
         'zh' => '你们与哪些国家和大学合作？',
     ),
     'faq_a3' => array(
-        'en' => 'Scholvia partners with institutions across Malaysia, Australia, the UK, Canada, and other popular study destinations. We work with both public and private universities, colleges, and language schools to find the best fit for your academic goals, budget, and personal preferences.',
-        'id' => 'Scholvia bermitra dengan institusi di Malaysia, Australia, Inggris, Kanada, dan destinasi studi populer lainnya. Kami bekerja sama dengan universitas negeri dan swasta, kolese, dan sekolah bahasa untuk menemukan yang paling cocok untuk tujuan akademis, anggaran, dan preferensi pribadimu.',
-        'ms' => 'Scholvia bekerjasama dengan institusi di Malaysia, Australia, UK, Kanada, dan destinasi pengajian popular lain. Kami bekerjasama dengan universiti awam dan swasta, kolej, dan sekolah bahasa untuk mencari yang paling sesuai dengan matlamat akademik, bajet, dan keutamaan peribadi anda.',
-        'zh' => 'Scholvia与马来西亚、澳大利亚、英国、加拿大等热门留学目的地的院校建立了合作关系。我们与公立和私立大学、学院和语言学校合作，为你找到最适合你学术目标、预算和个人偏好的院校。',
+        'en' => 'We currently focus on universities in Malaysia. We\'re adding more partner institutions and will update this as we grow.',
+        'id' => 'Saat ini kami berfokus pada universitas di Malaysia. Kami sedang menambah lebih banyak institusi mitra dan akan memperbarui ini seiring perkembangan kami.',
+        'ms' => 'Kami kini memberi tumpuan kepada universiti di Malaysia. Kami sedang menambah lebih banyak institusi rakan kongsi dan akan mengemas kini ini seiring perkembangan kami.',
+        'zh' => '我们目前专注于马来西亚的大学。我们正在增加更多合作院校，并将随着发展持续更新。',
     ),
     'faq_q4' => array(
         'en' => 'How long does the enrollment process take?',
@@ -968,10 +968,10 @@ return array(
         'zh' => '入学流程需要多长时间？',
     ),
     'faq_a4' => array(
-        'en' => 'The typical enrollment process takes 3 to 4 weeks from start to finish, depending on the university and program. This includes document preparation, application submission, and offer letter processing. Visa processing time varies by country but we keep you informed every step of the way.',
-        'id' => 'Proses pendaftaran biasanya memakan waktu 3 hingga 4 minggu dari awal hingga akhir, tergantung universitas dan programnya. Ini termasuk persiapan dokumen, pengajuan aplikasi, dan pemrosesan surat penawaran. Waktu pemrosesan visa bervariasi tergantung negara, tapi kami selalu memberitahumu di setiap tahap.',
-        'ms' => 'Proses pendaftaran biasanya mengambil masa 3 hingga 4 minggu dari mula hingga selesai, bergantung pada universiti dan program. Ini termasuk penyediaan dokumen, penghantaran permohonan, dan pemprosesan surat tawaran. Masa pemprosesan visa berbeza mengikut negara tetapi kami akan memaklumkan anda di setiap langkah.',
-        'zh' => '典型的入学流程从开始到结束需要3到4周，具体取决于大学和专业。这包括文件准备、申请提交和录取通知书处理。签证处理时间因国家而异，但我们会在每一步都及时通知你。',
+        'en' => 'It depends on the university and intake dates. Generally 4–8 weeks once all documents are ready. We\'ll give you a clear timeline from the start.',
+        'id' => 'Tergantung universitas dan tanggal penerimaan. Umumnya 4–8 minggu setelah semua dokumen siap. Kami akan memberikan jadwal yang jelas dari awal.',
+        'ms' => 'Bergantung pada universiti dan tarikh pengambilan. Umumnya 4–8 minggu setelah semua dokumen siap. Kami akan memberikan jadual yang jelas dari awal.',
+        'zh' => '取决于大学和入学日期。通常在所有文件准备好后需要4–8周。我们会从一开始就给你一个清晰的时间表。',
     ),
     'faq_q5' => array(
         'en' => 'Do you offer support after I arrive at my university?',
@@ -980,10 +980,10 @@ return array(
         'zh' => '到达大学后你们还提供支持吗？',
     ),
     'faq_a5' => array(
-        'en' => 'Absolutely! Post-arrival support is free for all Scholvia students. We help with airport pickup coordination, housing arrangements, orientation guidance, and ongoing academic and personal support. Our 24/7 helpline means you can reach us any time — even at 2 AM when you are feeling homesick.',
-        'id' => 'Tentu saja! Dukungan pasca-kedatangan gratis untuk semua siswa Scholvia. Kami membantu koordinasi penjemputan bandara, pengaturan tempat tinggal, panduan orientasi, dan dukungan akademik serta personal yang berkelanjutan. Saluran bantuan 24/7 kami berarti kamu bisa menghubungi kami kapan saja — bahkan jam 2 pagi saat kamu rindu rumah.',
-        'ms' => 'Sudah tentu! Sokongan pasca-ketibaan adalah percuma untuk semua pelajar Scholvia. Kami membantu dengan koordinasi pengambilan di lapangan terbang, pengaturan penginapan, bimbingan orientasi, dan sokongan akademik serta peribadi yang berterusan. Talian bantuan 24/7 kami bermakna anda boleh menghubungi kami pada bila-bila masa — walaupun pada pukul 2 pagi apabila anda rindu rumah.',
-        'zh' => '当然！Scholvia为所有学生提供免费的抵达后支持。我们帮助协调机场接机、住宿安排、入学指导，以及持续的学业和个人支持。我们的24/7服务热线意味着你可以随时联系我们——即使是凌晨两点想家的时候。',
+        'en' => 'We stay in touch after your arrival. If you have questions during your first weeks, we\'re reachable.',
+        'id' => 'Kami tetap menjaga komunikasi setelah kamu tiba. Jika ada pertanyaan selama minggu-minggu pertamamu, kami bisa dihubungi.',
+        'ms' => 'Kami kekal berhubung selepas ketibaan anda. Jika ada soalan semasa minggu-minggu pertama anda, kami boleh dihubungi.',
+        'zh' => '你抵达后我们会保持联系。如果你在最初几周有任何问题，随时可以联系我们。',
     ),
 
     // =====================================================================
