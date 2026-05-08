@@ -754,28 +754,10 @@ return array(
         'zh' => '以信任为基础，以关怀为动力',
     ),
     'about_text_1' => array(
-        'en' => 'Scholvia was founded by <strong>Citra Agustina</strong> with a simple but powerful belief: every student deserves a guide who genuinely cares about their future. Not a sales pitch. Not a transaction. A real relationship.',
-        'id' => 'Scholvia didirikan oleh <strong>Citra Agustina</strong> dengan keyakinan sederhana namun kuat: setiap siswa berhak memiliki pemandu yang benar-benar peduli dengan masa depan mereka. Bukan jualan. Bukan transaksi. Sebuah hubungan nyata.',
-        'ms' => 'Scholvia diasaskan oleh <strong>Citra Agustina</strong> dengan kepercayaan yang mudah tetapi berkesan: setiap pelajar layak mendapat pembimbing yang benar-benar mengambil berat tentang masa depan mereka. Bukan promosi jualan. Bukan transaksi. Hubungan yang sebenar.',
-        'zh' => 'Scholvia由<strong>Citra Agustina</strong>创立，怀着一个简单而有力的信念：每个学生都值得拥有一位真心关心他们未来的引路人。不是推销，不是交易，而是真实的关系。',
-    ),
-    'about_text_2' => array(
-        'en' => 'Based in Kuala Lumpur, we are a dedicated team specializing in helping students from Indonesia and Malaysia study abroad. From university enrollment to visa assistance, language preparation to post-arrival support — we handle it all.',
-        'id' => 'Berbasis di Kuala Lumpur, kami adalah tim berdedikasi yang berspesialisasi membantu siswa dari Indonesia dan Malaysia kuliah di luar negeri. Dari pendaftaran universitas hingga bantuan visa, persiapan bahasa hingga dukungan pasca-kedatangan — kami menangani semuanya.',
-        'ms' => 'Berpusat di Kuala Lumpur, kami adalah pasukan berdedikasi yang mengkhusus dalam membantu pelajar dari Indonesia dan Malaysia belajar di luar negara. Daripada pendaftaran universiti hingga bantuan visa, persediaan bahasa hingga sokongan pasca-ketibaan — kami menguruskan semuanya.',
-        'zh' => '我们总部位于吉隆坡，是一支专业团队，专注于帮助来自印度尼西亚和马来西亚的学生海外留学。从大学申请到签证协助，从语言准备到抵达后支持——我们一站式处理。',
-    ),
-    'about_text_3' => array(
-        'en' => 'What makes us different? We do not disappear after you land. We stay with you throughout your journey, answering questions at 2 AM, helping you navigate homesickness, celebrating your wins. That is what family does.',
-        'id' => 'Apa yang membuat kami berbeda? Kami tidak menghilang setelah kamu tiba. Kami tetap bersamamu sepanjang perjalanan, menjawab pertanyaan jam 2 pagi, membantumu mengatasi rindu rumah, merayakan keberhasilanmu. Itulah yang dilakukan keluarga.',
-        'ms' => 'Apa yang menjadikan kami berbeza? Kami tidak hilang selepas anda tiba. Kami kekal bersama anda sepanjang perjalanan, menjawab soalan pada pukul 2 pagi, membantu anda mengatasi rindu rumah, meraikan kejayaan anda. Itulah yang dilakukan keluarga.',
-        'zh' => '是什么让我们与众不同？我们不会在你抵达后就消失。我们全程陪伴你，凌晨两点回答你的问题，帮你度过思乡之情，庆祝你的每一次成功。这就是家人该做的事。',
-    ),
-    'about_text_4' => array(
-        'en' => 'With partner institutions across multiple countries and a 98% visa success rate, we have the expertise. But it is the personal touch that students remember most.',
-        'id' => 'Dengan institusi mitra di berbagai negara dan tingkat keberhasilan visa 98%, kami memiliki keahliannya. Tapi sentuhan personal lah yang paling diingat siswa.',
-        'ms' => 'Dengan institusi rakan kongsi di pelbagai negara dan kadar kejayaan visa 98%, kami mempunyai kepakaran. Tetapi sentuhan peribadi itulah yang paling diingati pelajar.',
-        'zh' => '凭借多国合作院校和98%的签证成功率，我们拥有专业能力。但学生们最记得的，是我们的个人关怀。',
+        'en' => 'Scholvia was founded by Citra Agustina with one belief: every student deserves honest guidance, not a sales pitch. We help students from Indonesia and Malaysia with university enrollment and student visa applications — step by step, from the first consultation to acceptance. Officially registered in Indonesia under PT Jembatan Global Citra (NIB: 1102250061893), operating across Jakarta and Kuala Lumpur.',
+        'id' => 'Scholvia didirikan oleh Citra Agustina dengan satu keyakinan: setiap siswa berhak mendapatkan bimbingan yang jujur, bukan promosi penjualan. Kami membantu siswa dari Indonesia dan Malaysia dalam pendaftaran universitas dan pengajuan visa pelajar — langkah demi langkah, dari konsultasi pertama hingga penerimaan. Terdaftar resmi di Indonesia di bawah PT Jembatan Global Citra (NIB: 1102250061893), beroperasi di Jakarta dan Kuala Lumpur.',
+        'ms' => 'Scholvia diasaskan oleh Citra Agustina dengan satu kepercayaan: setiap pelajar berhak mendapat bimbingan yang jujur, bukan promosi jualan. Kami membantu pelajar dari Indonesia dan Malaysia dengan pendaftaran universiti dan permohonan visa pelajar — langkah demi langkah, dari perundingan pertama hingga penerimaan. Berdaftar rasmi di Indonesia di bawah PT Jembatan Global Citra (NIB: 1102250061893), beroperasi di Jakarta dan Kuala Lumpur.',
+        'zh' => 'Scholvia由Citra Agustina创立，秉持一个信念：每位学生都值得获得真诚的指导，而非推销话术。我们帮助来自印度尼西亚和马来西亚的学生办理大学入学和学生签证申请——一步一步，从首次咨询到录取通知。在印度尼西亚正式注册，旗下为PT Jembatan Global Citra（NIB：1102250061893），在雅加达和吉隆坡开展业务。',
     ),
 
     // =====================================================================
