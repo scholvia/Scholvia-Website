@@ -246,15 +246,9 @@
         <ul class="service-features">
           <li><?php scholvia_te('svc2_feature1'); ?></li>
           <li><?php scholvia_te('svc2_feature2'); ?></li>
-          <li><?php scholvia_te('svc2_feature3'); ?></li>
           <li><?php scholvia_te('svc2_feature4'); ?></li>
-          <li><?php scholvia_te('svc2_feature5'); ?></li>
           <li><?php scholvia_te('svc2_feature6'); ?></li>
         </ul>
-        <div class="service-note">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-          <?php scholvia_te('svc2_note'); ?>
-        </div>
       </div>
     </div>
   </div>

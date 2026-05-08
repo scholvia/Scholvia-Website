@@ -1076,10 +1076,10 @@ return array(
         'zh' => '语言课程与考试准备',
     ),
     'svc2_text' => array(
-        'en' => 'Achieve the language scores you need to unlock your dream university. Our certified instructors provide personalized coaching that adapts to your learning pace and targets your weaknesses.',
-        'id' => 'Raih skor bahasa yang kamu butuhkan untuk membuka pintu universitas impianmu. Instruktur bersertifikat kami memberikan bimbingan personal yang menyesuaikan dengan kecepatan belajarmu dan menargetkan kelemahanmu.',
-        'ms' => 'Capai skor bahasa yang anda perlukan untuk membuka universiti impian anda. Pengajar bertauliah kami menyediakan bimbingan peribadi yang menyesuaikan dengan kadar pembelajaran anda dan menyasarkan kelemahan anda.',
-        'zh' => '取得你需要的语言成绩，打开梦想大学的大门。我们的持证讲师提供个性化辅导，根据你的学习节奏调整教学，针对你的薄弱环节进行强化。',
+        'en' => 'We help you find the right language course or test preparation program to meet your university\'s entry requirements.',
+        'id' => 'Kami membantu kamu menemukan kursus bahasa atau program persiapan tes yang tepat untuk memenuhi persyaratan masuk universitasmu.',
+        'ms' => 'Kami membantu anda mencari kursus bahasa atau program persediaan ujian yang sesuai untuk memenuhi keperluan kemasukan universiti anda.',
+        'zh' => '我们帮助你找到合适的语言课程或考试备考项目，以满足大学的入学要求。',
     ),
     'svc2_feature1' => array(
         'en' => 'IELTS preparation courses',
