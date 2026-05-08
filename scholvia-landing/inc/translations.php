@@ -104,10 +104,10 @@ return array(
         'zh' => '教育旅游',
     ),
     'footer_247_support' => array(
-        'en' => '24/7 Support',
-        'id' => 'Dukungan 24/7',
-        'ms' => 'Sokongan 24/7',
-        'zh' => '全天候支持',
+        'en' => 'Student Support',
+        'id' => 'Dukungan Siswa',
+        'ms' => 'Sokongan Pelajar',
+        'zh' => '学生支持',
     ),
     'footer_contact' => array(
         'en' => 'Contact',
