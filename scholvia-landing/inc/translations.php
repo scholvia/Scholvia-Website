@@ -39,6 +39,12 @@ return array(
         'ms' => 'Hubungi',
         'zh' => '联系我们',
     ),
+    'nav_partner' => array(
+        'en' => 'Partner With Us',
+        'id' => 'Bermitra Bersama Kami',
+        'ms' => 'Rakan Kongsi Kami',
+        'zh' => '合作伙伴',
+    ),
     'nav_get_started' => array(
         'en' => 'Get Started',
         'id' => 'Mulai Sekarang',

@@ -27,6 +27,7 @@
       <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>"<?php if (is_page('about') || is_page('tentang') || is_page('tentang-kami') || is_page('guanyu')) echo ' class="active"'; ?>><?php scholvia_te('nav_about'); ?></a>
       <a href="<?php echo esc_url(get_permalink(get_page_by_path('services'))); ?>"<?php if (is_page('services') || is_page('layanan') || is_page('perkhidmatan') || is_page('fuwu')) echo ' class="active"'; ?>><?php scholvia_te('nav_services'); ?></a>
       <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>"<?php if (is_page('contact') || is_page('kontak') || is_page('hubungi') || is_page('lianxi')) echo ' class="active"'; ?>><?php scholvia_te('nav_contact'); ?></a>
+      <a href="<?php echo esc_url(get_permalink(get_page_by_path('partner'))); ?>"<?php if (is_page('partner') || is_page('mitra') || is_page('rakan-kongsi') || is_page('hezuo')) echo ' class="active"'; ?>><?php scholvia_te('nav_partner'); ?></a>
       <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact'))); ?>" class="nav-cta"><?php scholvia_te('nav_get_started'); ?></a>
       <?php if (function_exists('pll_the_languages')) : ?>
       <div class="lang-switcher">
