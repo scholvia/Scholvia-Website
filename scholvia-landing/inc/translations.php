@@ -892,10 +892,10 @@ return array(
         'zh' => '创始人心声',
     ),
     'founder_quote' => array(
-        'en' => '"I started Scholvia because I saw too many students overwhelmed by the complexity of studying abroad. I wanted to create a place where they feel safe, supported, and never alone. Every student who walks through our door is not just a client — they are family. And we treat them that way."',
-        'id' => '"Saya mendirikan Scholvia karena saya melihat terlalu banyak siswa yang kewalahan oleh rumitnya proses kuliah di luar negeri. Saya ingin menciptakan tempat di mana mereka merasa aman, didukung, dan tidak pernah sendirian. Setiap siswa yang datang ke kami bukan sekadar klien — mereka adalah keluarga. Dan kami memperlakukan mereka seperti itu."',
-        'ms' => '"Saya memulakan Scholvia kerana saya melihat terlalu ramai pelajar yang terharu dengan kerumitan belajar di luar negara. Saya ingin mewujudkan tempat di mana mereka merasa selamat, disokong, dan tidak pernah keseorangan. Setiap pelajar yang datang ke kami bukan sekadar klien — mereka adalah keluarga. Dan kami melayan mereka begitu."',
-        'zh' => '"我创办Scholvia，是因为我看到太多学生被留学的复杂流程压得喘不过气。我想创造一个让他们感到安全、被支持、永远不孤单的地方。每一位走进我们大门的学生不仅仅是客户——他们是家人。我们也这样对待他们。"',
+        'en' => '"I started Scholvia because I know how much this decision matters — not just for the student, but for the whole family. My background is in education. I understand what students need, and I take that seriously. Every student I work with gets my full attention. That\'s a promise I can keep."',
+        'id' => '"Saya mendirikan Scholvia karena saya tahu betapa pentingnya keputusan ini — bukan hanya bagi siswa, tetapi bagi seluruh keluarga. Latar belakang saya di bidang pendidikan. Saya memahami apa yang dibutuhkan siswa, dan saya menyikapinya dengan serius. Setiap siswa yang saya dampingi mendapat perhatian penuh dari saya. Itu janji yang bisa saya tepati."',
+        'ms' => '"Saya memulakan Scholvia kerana saya tahu betapa pentingnya keputusan ini — bukan sahaja bagi pelajar, tetapi bagi seluruh keluarga. Latar belakang saya dalam bidang pendidikan. Saya faham apa yang diperlukan pelajar, dan saya mengambilnya dengan serius. Setiap pelajar yang saya bantu mendapat perhatian penuh daripada saya. Itulah janji yang boleh saya tunaikan."',
+        'zh' => '"我创办Scholvia，是因为我深知这个决定有多重要——不仅对学生，也对整个家庭。我的背景是教育。我了解学生需要什么，并认真对待这份责任。每一位与我合作的学生都能得到我全心全意的关注。这是我能信守的承诺。"',
     ),
     'founder_role' => array(
         'en' => 'Founder & Lead Consultant',
