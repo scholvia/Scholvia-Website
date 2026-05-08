@@ -126,7 +126,7 @@
       <div class="guide-grid" style="margin-top: 48px;">
         <div class="reveal-left">
           <div class="guide-photo-wrapper">
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/citra.png" alt="<?php echo esc_attr(scholvia_t('guide_photo_alt')); ?>" class="guide-photo">
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/NEW.JPG" alt="<?php echo esc_attr(scholvia_t('guide_photo_alt')); ?>" class="guide-photo">
           </div>
         </div>
         <div class="guide-content reveal-right">

@@ -1772,10 +1772,10 @@ return array(
         'zh' => 'Scholvia合作',
     ),
     'partner_hero_subtitle' => array(
-        'en' => 'Expand your international student enrollment through our overseas student recruitment expertise in Indonesia and Southeast Asia.',
-        'id' => 'Perluas pendaftaran mahasiswa internasional Anda melalui keahlian rekrutmen mahasiswa luar negeri kami di Indonesia dan Asia Tenggara.',
-        'ms' => 'Kembangkan pendaftaran pelajar antarabangsa anda melalui kepakaran pengambilan pelajar luar negara kami di Indonesia dan Asia Tenggara.',
-        'zh' => '通过我们在印度尼西亚和东南亚的海外学生招生专业能力，扩大您的国际学生招生规模。',
+        'en' => 'We help universities reach and enroll qualified students from Indonesia and Southeast Asia.',
+        'id' => 'Kami membantu universitas menjangkau dan mendaftarkan mahasiswa berkualitas dari Indonesia dan Asia Tenggara.',
+        'ms' => 'Kami membantu universiti menjangkau dan mendaftarkan pelajar berkelayakan dari Indonesia dan Asia Tenggara.',
+        'zh' => '我们帮助大学从印度尼西亚和东南亚招募和录取优质学生。',
     ),
 
     // =====================================================================
@@ -1788,10 +1788,10 @@ return array(
         'zh' => '值得信赖的海外学生招生服务',
     ),
     'partner_intro_text' => array(
-        'en' => 'Scholvia is an education consultancy specializing in overseas student recruitment, connecting qualified international students with reputable universities worldwide. We focus primarily on the Indonesian and Southeast Asian markets, supporting institutions in reaching, screening, and enrolling high-potential students through a structured and professional process.',
-        'id' => 'Scholvia adalah konsultan pendidikan yang berspesialisasi dalam rekrutmen mahasiswa luar negeri, menghubungkan mahasiswa internasional berkualitas dengan universitas terkemuka di seluruh dunia. Kami fokus terutama pada pasar Indonesia dan Asia Tenggara, mendukung institusi dalam menjangkau, menyaring, dan mendaftarkan mahasiswa berpotensi tinggi melalui proses yang terstruktur dan profesional.',
-        'ms' => 'Scholvia ialah konsultasi pendidikan yang mengkhusus dalam pengambilan pelajar luar negara, menghubungkan pelajar antarabangsa yang berkelayakan dengan universiti bereputasi di seluruh dunia. Kami fokus terutamanya pada pasaran Indonesia dan Asia Tenggara, menyokong institusi dalam menjangkau, menyaring, dan mendaftarkan pelajar berpotensi tinggi melalui proses yang berstruktur dan profesional.',
-        'zh' => 'Scholvia是一家专注于海外学生招生的教育咨询公司，将优质国际学生与全球知名大学连接起来。我们主要聚焦印度尼西亚和东南亚市场，通过结构化、专业化的流程帮助院校触达、筛选和录取高潜力学生。',
+        'en' => 'Scholvia is an education agency based in Kuala Lumpur and Jakarta, specializing in student recruitment from Indonesia and Southeast Asia. We work directly with universities to source, screen, and enroll qualified students — with full support from first contact to arrival.',
+        'id' => 'Scholvia adalah agen pendidikan yang berbasis di Kuala Lumpur dan Jakarta, berspesialisasi dalam rekrutmen mahasiswa dari Indonesia dan Asia Tenggara. Kami bekerja langsung dengan universitas untuk mencari, menyaring, dan mendaftarkan mahasiswa berkualitas — dengan dukungan penuh dari kontak pertama hingga kedatangan.',
+        'ms' => 'Scholvia ialah agensi pendidikan yang berpusat di Kuala Lumpur dan Jakarta, mengkhusus dalam pengambilan pelajar dari Indonesia dan Asia Tenggara. Kami bekerja terus dengan universiti untuk mencari, menyaring, dan mendaftarkan pelajar berkelayakan — dengan sokongan penuh dari hubungan pertama hingga ketibaan.',
+        'zh' => 'Scholvia是一家总部位于吉隆坡和雅加达的教育机构，专注于从印度尼西亚和东南亚招募学生。我们直接与大学合作，负责寻源、筛选和录取合格学生——从首次接触到学生抵达，全程提供支持。',
     ),
 
     // =====================================================================
