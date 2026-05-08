@@ -1244,22 +1244,22 @@ return array(
     // SERVICES PAGE — SERVICE 5: 24/7 Support
     // =====================================================================
     'svc5_title' => array(
-        'en' => '24/7 Student Support Services',
-        'id' => 'Layanan Dukungan Siswa 24/7',
-        'ms' => 'Perkhidmatan Sokongan Pelajar 24/7',
-        'zh' => '全天候学生支持服务',
+        'en' => 'Student Support Services',
+        'id' => 'Layanan Dukungan Siswa',
+        'ms' => 'Perkhidmatan Sokongan Pelajar',
+        'zh' => '学生支持服务',
     ),
     'svc5_text' => array(
-        'en' => 'Our care does not stop at the airport. From the moment you arrive, our support team is available around the clock. Homesick at midnight? Academic trouble? Need help navigating local life? We are one message away.',
-        'id' => 'Kepedulian kami tidak berhenti di bandara. Dari saat kamu tiba, tim dukungan kami siap 24 jam. Rindu rumah tengah malam? Masalah akademik? Butuh bantuan menjalani kehidupan lokal? Kami hanya satu pesan jauhnya.',
-        'ms' => 'Keprihatinan kami tidak berhenti di lapangan terbang. Dari saat anda tiba, pasukan sokongan kami sedia sepanjang masa. Rindu rumah tengah malam? Masalah akademik? Perlukan bantuan menjalani kehidupan tempatan? Kami hanya satu mesej sahaja.',
-        'zh' => '我们的关怀不会在机场止步。从你抵达的那一刻起，我们的支持团队全天候待命。半夜想家？学业困难？需要帮助适应当地生活？我们只需一条消息的距离。',
+        'en' => 'Our support does not stop once you arrive. We are here to help you settle in and navigate life as a student abroad.',
+        'id' => 'Dukungan kami tidak berhenti setelah kamu tiba. Kami hadir untuk membantumu beradaptasi dan menjalani kehidupan sebagai pelajar di luar negeri.',
+        'ms' => 'Sokongan kami tidak berhenti setelah anda tiba. Kami di sini untuk membantu anda menyesuaikan diri dan menjalani kehidupan sebagai pelajar di luar negara.',
+        'zh' => '我们的支持不会在你抵达后停止。我们在这里帮助你安顿下来，适应海外留学生活。',
     ),
     'svc5_feature1' => array(
-        'en' => '24/7 WhatsApp helpline',
-        'id' => 'Saluran bantuan WhatsApp 24/7',
-        'ms' => 'Talian bantuan WhatsApp 24/7',
-        'zh' => '24/7 WhatsApp服务热线',
+        'en' => 'WhatsApp support',
+        'id' => 'Dukungan WhatsApp',
+        'ms' => 'Sokongan WhatsApp',
+        'zh' => 'WhatsApp支持',
     ),
     'svc5_feature2' => array(
         'en' => 'Airport pickup coordination',
@@ -1292,10 +1292,10 @@ return array(
         'zh' => '当地入门指导与城市导览',
     ),
     'svc5_note' => array(
-        'en' => 'Free for all Scholvia students — always',
-        'id' => 'Gratis untuk semua siswa Scholvia — selalu',
-        'ms' => 'Percuma untuk semua pelajar Scholvia — sentiasa',
-        'zh' => '所有Scholvia学生永久免费',
+        'en' => 'Included for all Scholvia students',
+        'id' => 'Termasuk untuk semua siswa Scholvia',
+        'ms' => 'Termasuk untuk semua pelajar Scholvia',
+        'zh' => '所有Scholvia学生均享此服务',
     ),
 
     // =====================================================================
@@ -1314,10 +1314,10 @@ return array(
         'zh' => '为什么选择Scholvia',
     ),
     'svc_why_subtitle' => array(
-        'en' => 'What sets Scholvia apart from every other education agency.',
-        'id' => 'Apa yang membedakan Scholvia dari agen pendidikan lainnya.',
-        'ms' => 'Apa yang membezakan Scholvia daripada agensi pendidikan lain.',
-        'zh' => 'Scholvia与其他教育机构的不同之处。',
+        'en' => 'What we bring to every student we work with.',
+        'id' => 'Apa yang kami berikan kepada setiap siswa yang kami dampingi.',
+        'ms' => 'Apa yang kami tawarkan kepada setiap pelajar yang kami bantu.',
+        'zh' => '我们为每一位合作学生所带来的价值。',
     ),
     'svc_why_card1_title' => array(
         'en' => 'Strong Access to Indonesian Market',
