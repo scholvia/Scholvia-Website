@@ -692,10 +692,10 @@ return array(
         'zh' => '准备好书写你的故事了吗？',
     ),
     'cta_text' => array(
-        'en' => 'Every student who chose Scholvia started exactly where you are now — curious, a little nervous, full of potential. Let us help you take that first step.',
-        'id' => 'Setiap siswa yang memilih Scholvia memulai dari titik yang sama denganmu sekarang — penasaran, sedikit gugup, penuh potensi. Biarkan kami membantumu mengambil langkah pertama.',
-        'ms' => 'Setiap pelajar yang memilih Scholvia bermula tepat di mana anda berada sekarang — ingin tahu, sedikit gementar, penuh potensi. Biar kami bantu anda mengambil langkah pertama.',
-        'zh' => '每一位选择Scholvia的学生都和你现在一样——好奇、有些紧张、充满潜力。让我们帮你迈出第一步。',
+        'en' => 'Thinking about studying abroad? Start with a free conversation. No pressure, no commitment — just honest guidance.',
+        'id' => 'Sedang memikirkan kuliah di luar negeri? Mulailah dengan percakapan gratis. Tanpa tekanan, tanpa komitmen — hanya bimbingan yang jujur.',
+        'ms' => 'Sedang memikirkan untuk belajar di luar negara? Mulakan dengan perbualan percuma. Tiada tekanan, tiada komitmen — hanya bimbingan yang jujur.',
+        'zh' => '正在考虑出国留学？从一次免费的交流开始。没有压力，没有承诺——只有真诚的指导。',
     ),
     'cta_btn_consultation' => array(
         'en' => 'Book Free Consultation',

@@ -479,7 +479,6 @@
           <div class="contact-info-text">
             <h3><?php scholvia_te('contact_response_title'); ?></h3>
             <p><?php scholvia_te('contact_response_text'); ?></p>
-            <span class="response-badge"><span class="response-dot"></span> <?php scholvia_te('contact_response_badge'); ?></span>
           </div>
         </div>
       </div>
