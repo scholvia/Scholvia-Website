@@ -413,12 +413,6 @@
         <p><?php scholvia_te('partner_market2_text'); ?></p>
         <span class="badge badge-secondary"><?php scholvia_te('partner_market2_badge'); ?></span>
       </div>
-      <div class="glass-card market-card reveal" style="transition-delay: 0.2s;">
-        <div class="market-icon">&#127758;</div>
-        <h3><?php scholvia_te('partner_market3_title'); ?></h3>
-        <p><?php scholvia_te('partner_market3_text'); ?></p>
-        <span class="badge badge-secondary"><?php scholvia_te('partner_market3_badge'); ?></span>
-      </div>
     </div>
   </div>
 </section>
@@ -429,7 +423,7 @@
     <div class="reveal">
       <span class="section-label"><?php scholvia_te('partner_why_label'); ?></span>
       <h2 class="section-title"><?php scholvia_te('svc_why_title'); ?></h2>
-      <p class="section-subtitle"><?php scholvia_te('svc_why_subtitle'); ?></p>
+      <p class="section-subtitle"><?php scholvia_te('partner_why_subtitle'); ?></p>
     </div>
     <div class="why-partner-grid">
       <div class="glass-card-dark reveal">

@@ -1944,10 +1944,10 @@ return array(
         'zh' => '东南亚',
     ),
     'partner_market2_text' => array(
-        'en' => 'Expanding presence in Malaysia, Vietnam, and the Philippines through strategic partnerships.',
-        'id' => 'Memperluas kehadiran di Malaysia, Vietnam, dan Filipina melalui kemitraan strategis.',
-        'ms' => 'Mengembangkan kehadiran di Malaysia, Vietnam, dan Filipina melalui perkongsian strategik.',
-        'zh' => '通过战略合作关系在马来西亚、越南和菲律宾拓展业务。',
+        'en' => 'Growing network across Malaysia and the wider Southeast Asian region.',
+        'id' => 'Jaringan yang berkembang di Malaysia dan kawasan Asia Tenggara yang lebih luas.',
+        'ms' => 'Rangkaian yang semakin berkembang di Malaysia dan kawasan Asia Tenggara yang lebih luas.',
+        'zh' => '在马来西亚及东南亚更广泛地区持续扩展的网络。',
     ),
     'partner_market2_badge' => array(
         'en' => 'Expanding',
@@ -1983,7 +1983,13 @@ return array(
         'ms' => 'Kelebihan Scholvia',
         'zh' => 'Scholvia的优势',
     ),
-    // Note: partner page shares svc_why_title, svc_why_subtitle, and all 4 card keys with services page
+    'partner_why_subtitle' => array(
+        'en' => 'What we bring to every university we work with.',
+        'id' => 'Apa yang kami hadirkan untuk setiap universitas yang bermitra dengan kami.',
+        'ms' => 'Apa yang kami tawarkan kepada setiap universiti yang bekerjasama dengan kami.',
+        'zh' => '我们为每一所合作大学所带来的价值。',
+    ),
+    // Note: partner page shares svc_why_title and all 4 card keys with services page
 
     // =====================================================================
     // PARTNER PAGE — CONTACT CTA
