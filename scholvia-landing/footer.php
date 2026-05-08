@@ -51,7 +51,6 @@
     </div>
     <div class="footer-bottom">
       <p>&copy; <?php echo esc_html(date('Y')); ?> <?php scholvia_te('footer_copyright'); ?></p>
-      <a href="https://wuesteon.github.io/" target="_blank" rel="noopener"><?php scholvia_te('footer_designer'); ?></a>
     </div>
   </div>
 </footer>

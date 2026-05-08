@@ -227,10 +227,10 @@ return array(
     // FRONT PAGE — TRUST BAR
     // =====================================================================
     'trust_licensed' => array(
-        'en' => 'Licensed Agency',
-        'id' => 'Agen Berlisensi',
-        'ms' => 'Agensi Berlesen',
-        'zh' => '持牌机构',
+        'en' => 'Officially Registered Agency',
+        'id' => 'Agen Resmi Terdaftar',
+        'ms' => 'Agensi Berdaftar Rasmi',
+        'zh' => '正式注册机构',
     ),
     'trust_partner_institutions' => array(
         'en' => 'Multi-Country Network',
@@ -239,10 +239,10 @@ return array(
         'zh' => '多国合作网络',
     ),
     'trust_247_support' => array(
-        'en' => '24/7 Student Support',
-        'id' => 'Dukungan Siswa 24/7',
-        'ms' => 'Sokongan Pelajar 24/7',
-        'zh' => '全天候学生支持',
+        'en' => 'Responsive Support',
+        'id' => 'Dukungan Responsif',
+        'ms' => 'Sokongan Responsif',
+        'zh' => '及时响应支持',
     ),
     'trust_no_hidden_fees' => array(
         'en' => 'No Hidden Fees',
@@ -495,10 +495,10 @@ return array(
         'zh' => 'Scholvia 创始人兼首席顾问',
     ),
     'guide_stat_team' => array(
-        'en' => 'Team of 8 Consultants',
-        'id' => 'Tim 8 Konsultan',
-        'ms' => 'Pasukan 8 Perunding',
-        'zh' => '8人顾问团队',
+        'en' => 'Founder-Led Guidance',
+        'id' => 'Bimbingan Langsung Pendiri',
+        'ms' => 'Bimbingan Terus Pengasas',
+        'zh' => '创始人亲自指导',
     ),
     'guide_stat_response' => array(
         'en' => 'Avg 2 Hours Response Time',
