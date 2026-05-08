@@ -1018,10 +1018,10 @@ return array(
         'zh' => '大学入学协助',
     ),
     'svc1_text' => array(
-        'en' => 'We match you with the right university based on your academic goals, career aspirations, budget, and lifestyle preferences. Our team handles the entire application process so you can focus on what matters most — preparing for your future.',
-        'id' => 'Kami mencocokkanmu dengan universitas yang tepat berdasarkan tujuan akademis, aspirasi karir, anggaran, dan preferensi gaya hidupmu. Tim kami menangani seluruh proses pendaftaran agar kamu bisa fokus pada hal terpenting — mempersiapkan masa depanmu.',
-        'ms' => 'Kami memadankan anda dengan universiti yang sesuai berdasarkan matlamat akademik, aspirasi kerjaya, bajet, dan keutamaan gaya hidup anda. Pasukan kami menguruskan keseluruhan proses permohonan supaya anda boleh fokus pada perkara paling penting — menyediakan masa depan anda.',
-        'zh' => '我们根据你的学术目标、职业理想、预算和生活方式偏好，为你匹配最合适的大学。我们的团队负责处理整个申请流程，让你专注于最重要的事——为未来做准备。',
+        'en' => 'We help you find the right university, prepare your application, and get accepted — without the guesswork.',
+        'id' => 'Kami membantu kamu menemukan universitas yang tepat, menyiapkan aplikasi, dan mendapatkan penerimaan — tanpa perlu menebak-nebak.',
+        'ms' => 'Kami membantu anda mencari universiti yang sesuai, menyediakan permohonan, dan mendapat kemasukan — tanpa perlu meneka.',
+        'zh' => '我们帮助你找到合适的大学、准备申请材料并顺利获录取——不再靠猜测。',
     ),
     'svc1_feature1' => array(
         'en' => 'Personalized university matching',
@@ -1048,10 +1048,10 @@ return array(
         'zh' => '奖学金机会研究',
     ),
     'svc1_feature5' => array(
-        'en' => 'Program comparison analysis',
-        'id' => 'Analisis perbandingan program',
-        'ms' => 'Analisis perbandingan program',
-        'zh' => '专业对比分析',
+        'en' => 'Program comparison',
+        'id' => 'Perbandingan program',
+        'ms' => 'Perbandingan program',
+        'zh' => '专业对比',
     ),
     'svc1_feature6' => array(
         'en' => 'Admission interview coaching',
