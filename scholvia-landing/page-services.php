@@ -382,11 +382,21 @@
     </div>
     <div class="extras-grid">
       <div class="glass-card extras-card reveal">
-        <div class="extras-icon">&#128197;</div>
+        <div class="extras-icon">&#9989;</div>
         <h3><?php scholvia_te('extras_card1_title'); ?></h3>
         <p><?php scholvia_te('extras_card1_text'); ?></p>
       </div>
       <div class="glass-card extras-card reveal" style="transition-delay: 0.1s;">
+        <div class="extras-icon">&#128196;</div>
+        <h3><?php scholvia_te('extras_card3_title'); ?></h3>
+        <p><?php scholvia_te('extras_card3_text'); ?></p>
+      </div>
+      <div class="glass-card extras-card reveal" style="transition-delay: 0.2s;">
+        <div class="extras-icon">&#128172;</div>
+        <h3><?php scholvia_te('extras_card4_title'); ?></h3>
+        <p><?php scholvia_te('extras_card4_text'); ?></p>
+      </div>
+      <div class="glass-card extras-card reveal" style="transition-delay: 0.3s;">
         <div class="extras-icon">&#127942;</div>
         <h3><?php scholvia_te('extras_card2_title'); ?></h3>
         <p><?php scholvia_te('extras_card2_text'); ?></p>
